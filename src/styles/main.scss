@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
+
+
+@import "__variables";
+@import "__mixins";
+@import "calendar";
+@import "calendar-day";

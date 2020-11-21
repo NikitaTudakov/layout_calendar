@@ -1,0 +1,8 @@
+.calendar {
+  @include centered;
+  flex-wrap: wrap;
+  margin: 60px auto;
+  gap: $block-gap;
+  width: 706px;
+  font-family: $calendar-font-family;
+}
