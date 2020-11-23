@@ -4,11 +4,12 @@
   @include blockSize;
   background-color: $block-background;
   border: $block-border;
+  transition-duration: 500ms;
 
   &:hover {
     cursor: pointer;
     background-color: $block-background-hover;
-    @include animation;
+    transform: translate(0, -20px);
   }
 
   @for $i from 1 through 31 {

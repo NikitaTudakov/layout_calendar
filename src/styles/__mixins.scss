@@ -3,11 +3,6 @@
   height: 100px;
 }
 
-@mixin animation {
-  transform: translate(0, -20px);
-  transition-duration: 500ms;
-}
-
 @mixin centered {
   display: flex;
   align-items: center;
